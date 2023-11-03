@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Recherche Web",
+    "version": "1.0",
+    "description": "Extension pour rechercher sur Wikipédia et Google",
+    "permissions": ["activeTab"],
+    "action": {
+        "default_popup": "index.html",
+            "default_icon": {
+            "16": "assets/icon16.png",
+            "48": "assets/icon48.png",
+            "128": "assets/icon128.png"
+        }
+    }
+}
